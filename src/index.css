@@ -9,7 +9,8 @@ main {
   min-height: 80vh;
   max-width: 1024px;
   margin: 35px auto;
-  background: #fff;
+  background: #515151;
+  color: #FFD25A;
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
@@ -27,13 +28,22 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
   border-radius: 100%;
   margin: 0 auto;
-} */
+}
 
 header h1 {
   text-align: center;
+}
+
+input {
+  width: 300px;
+  padding: 15px 22px;
+  box-sizing: border-box;
+  border: 1px solid #525252;
+  border-radius: 5px;
+  font-size: 16px;
 }
